@@ -10,8 +10,7 @@ The database includes stored procedures having insert queries required to enter 
 
 | Table Name | Keys &amp; Columns | Details |
 | --- | --- | --- |
-| Order | PrimaryKey > id   ForeignKey > customer\_id  order\_date  delivery\_date   delivery\_address   
-order\_type | This table keep the details regarding the orders made by the customers. |
+| Order | PrimaryKey > id      ForeignKey > customer\_id      order\_date  delivery\_date   delivery\_address   order\_type | This table keep the details regarding the orders made by the customers. |
 | Customer | PrimaryKey > idfnamelnameimageemailphoneaddress | This table keep information regarding the customers. |
 | Employee | PrimaryKey > idfnamelnameimageemailphoneaddressForeignKey > job\_id | The employee details are stored in this table. |
 | JobRole | PrimaryKey > idtitleResponsibilities | This table keeps information regarding the various job roles. |
