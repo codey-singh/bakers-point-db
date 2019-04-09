@@ -17,11 +17,35 @@ BS
 
 | Table Name | Keys &amp; Columns | Details |
 | --- | --- | --- |
-| Order | PrimaryKey > idForeignKey > customer\_idorder\_datedelivery\_datedelivery\_addressorder\_type | This table keep the details regarding the orders made by the customers. |
-| Customer | PrimaryKey > idfnamelnameimageemailphoneaddress | This table keep information regarding the customers. |
-| Employee | PrimaryKey > idfnamelnameimageemailphoneaddressForeignKey > job\_id | The employee details are stored in this table. |
+| Order | PrimaryKey > id   
+ForeignKey > customer\_id   
+order\_date    
+delivery\_date   
+delivery\_address   
+order\_type   | This table keep the details regarding the orders made by the customers. |
+| Customer | PrimaryKey > id   
+fname   
+lname   
+image    
+email    
+phoneaddress   
+ | This table keep information regarding the customers. |
+| Employee | PrimaryKey > id   
+fname   
+lname   
+image   
+email   
+phoneaddress    
+ForeignKey > job\_id    
+ | The employee details are stored in this table. |
 | JobRole | PrimaryKey > idtitleResponsibilities | This table keeps information regarding the various job roles. |
-| Product | PrimaryKey > idtitlesizeimageshapepriceavailabilityeta | This table keeps details about the various products available in the bakery. |
+| Product | PrimaryKey > id   
+title      
+image    
+price     
+availability     
+eta    
+ | This table keeps details about the various products available in the bakery. |
 | OrderStatus | PrimaryKey > idorder\_idstatusupdated\_atForeignKey > updated\_by | This table keeps the status of the orders. |
 | OrderLine | PrimaryKey > idForeignKey > product\_idquantitygift\_wrapForeignKey > order\_iddetails | This table keeps the details regarding the price and quantity of the orders. |
 | OrderLineCustomization | PrimaryKey > idForeignKey > criteria\_idForeignKey > orderline\_id | This table saves customization criteria. |
