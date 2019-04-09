@@ -17,22 +17,22 @@ BS
 
 | Table Name | Keys &amp; Columns | Details |
 | --- | --- | --- |
-| Order | PrimaryKey -\&gt; idForeignKey -\&gt; customer\_idorder\_datedelivery\_datedelivery\_addressorder\_type | This table keep the details regarding the orders made by the customers. |
-| Customer | PrimaryKey -\&gt; idfnamelnameimageemailphoneaddress | This table keep information regarding the customers. |
-| Employee | PrimaryKey -\&gt; idfnamelnameimageemailphoneaddressForeignKey -\&gt; job\_id | The employee details are stored in this table. |
-| JobRole | PrimaryKey -\&gt; idtitleResponsibilities | This table keeps information regarding the various job roles. |
-| Product | PrimaryKey -\&gt; idtitlesizeimageshapepriceavailabilityeta | This table keeps details about the various products available in the bakery. |
-| OrderStatus | PrimaryKey -\&gt; idorder\_idstatusupdated\_atForeignKey -\&gt; updated\_by | This table keeps the status of the orders. |
-| OrderLine | PrimaryKey -\&gt; idForeignKey -\&gt; product\_idquantitygift\_wrapForeignKey -\&gt; order\_iddetails | This table keeps the details regarding the price and quantity of the orders. |
-| OrderLineCustomization | PrimaryKey -\&gt; idForeignKey -\&gt; criteria\_idForeignKey -\&gt; orderline\_id | This table saves customization criteria. |
-| OrderCustomizationCriteria | PrimaryKey -\&gt; idForeignKey -\&gt; product\_idcustomization\_nameprice | This table saves customization details. |
-| Feedback | PrimaryKey -\&gt; idForeignKey -\&gt; customer\_idForeignKey -\&gt; order\_line\_idfeedback\_textrating | This table stores feedbacks given by the customers. |
+| Order | PrimaryKey > idForeignKey > customer\_idorder\_datedelivery\_datedelivery\_addressorder\_type | This table keep the details regarding the orders made by the customers. |
+| Customer | PrimaryKey > idfnamelnameimageemailphoneaddress | This table keep information regarding the customers. |
+| Employee | PrimaryKey > idfnamelnameimageemailphoneaddressForeignKey > job\_id | The employee details are stored in this table. |
+| JobRole | PrimaryKey > idtitleResponsibilities | This table keeps information regarding the various job roles. |
+| Product | PrimaryKey > idtitlesizeimageshapepriceavailabilityeta | This table keeps details about the various products available in the bakery. |
+| OrderStatus | PrimaryKey > idorder\_idstatusupdated\_atForeignKey > updated\_by | This table keeps the status of the orders. |
+| OrderLine | PrimaryKey > idForeignKey > product\_idquantitygift\_wrapForeignKey > order\_iddetails | This table keeps the details regarding the price and quantity of the orders. |
+| OrderLineCustomization | PrimaryKey > idForeignKey > criteria\_idForeignKey > orderline\_id | This table saves customization criteria. |
+| OrderCustomizationCriteria | PrimaryKey > idForeignKey > product\_idcustomization\_nameprice | This table saves customization details. |
+| Feedback | PrimaryKey > idForeignKey > customer\_idForeignKey > order\_line\_idfeedback\_textrating | This table stores feedbacks given by the customers. |
 
 # Requirement List
 
 1. Status of each order.
-2. Add new products. -\&gt; Add new products and customizations and its cost.
-3. Money Made. -\&gt; money made between a date range.
+2. Add new products. > Add new products and customizations and its cost.
+3. Money Made. > money made between a date range.
 4. Average rating for each product.
 5. Most sold product.
 6. Order invoice.
