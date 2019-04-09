@@ -40,7 +40,7 @@ List of all the stored procedure with details
 Example:
 
 | Procedure Name | Input Output Parameters | Details |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | insertCustomerData |   |   |
 | insertEmployeeData |   |   |
 | insertFeedback |   |   |
