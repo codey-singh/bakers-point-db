@@ -1,7 +1,5 @@
 # bakers-point-db
 
-# Project Details
-
 The project is a database for business management for a bakery. The system will be mainly used for order management. SQL server is used as the database engine for the project. Details regarding the products, customers and employees will be stored in the database. We have used different SQL queries for getting our requirements. Here, we have stored the data values and requirements as stored procedures. The database developed is suitable for a store where several customization options are available for their products. Also new products and different customization options can be added as per requirements.
 
 The database stores details of all the customers including name, contact and address. Orders made by each customer is stored in the database each linked to the customer. Invoice of the order made can be retrieved from the database using the stored procedure for the same. The database has stored procedure to retrieve the total sales during a period entered.
@@ -12,8 +10,7 @@ The database includes stored procedures having insert queries required to enter 
 
 | Table Name | Keys &amp; Columns | Details |
 | --- | --- | --- |
-| Order | PrimaryKey > id   ForeignKey > customer\_id  order\_date  delivery\_date   delivery\_address   
-order\_type | This table keep the details regarding the orders made by the customers. |
+| Order | PrimaryKey > id      ForeignKey > customer\_id      order\_date  delivery\_date   delivery\_address   order\_type | This table keep the details regarding the orders made by the customers. |
 | Customer | PrimaryKey > idfnamelnameimageemailphoneaddress | This table keep information regarding the customers. |
 | Employee | PrimaryKey > idfnamelnameimageemailphoneaddressForeignKey > job\_id | The employee details are stored in this table. |
 | JobRole | PrimaryKey > idtitleResponsibilities | This table keeps information regarding the various job roles. |
@@ -40,7 +37,7 @@ List of all the stored procedure with details
 Example:
 
 | Procedure Name | Input Output Parameters | Details |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | insertCustomerData |   |   |
 | insertEmployeeData |   |   |
 | insertFeedback |   |   |
