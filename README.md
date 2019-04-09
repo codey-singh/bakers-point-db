@@ -1,7 +1,5 @@
 # bakers-point-db
 
-# Project Details
-
 The project is a database for business management for a bakery. The system will be mainly used for order management. SQL server is used as the database engine for the project. Details regarding the products, customers and employees will be stored in the database. We have used different SQL queries for getting our requirements. Here, we have stored the data values and requirements as stored procedures. The database developed is suitable for a store where several customization options are available for their products. Also new products and different customization options can be added as per requirements.
 
 The database stores details of all the customers including name, contact and address. Orders made by each customer is stored in the database each linked to the customer. Invoice of the order made can be retrieved from the database using the stored procedure for the same. The database has stored procedure to retrieve the total sales during a period entered.
