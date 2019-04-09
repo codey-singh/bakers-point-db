@@ -8,11 +8,6 @@ The database stores details of all the customers including name, contact and add
 
 The database includes stored procedures having insert queries required to enter data to all the tables intended. This ensures that the sql file can be run in any system and successfully prove its purpose. Our goal for this project is to create a complete backend system for a bakery.
 
-# Team Members
-
-AJ
-BS
-
 # Database tables
 
 | Table Name | Keys &amp; Columns | Details |
@@ -44,21 +39,21 @@ List of all the stored procedure with details
 
 Example:
 
-| Procedure Name | Input Output Parameters | Details | Team Member worked on it |
+| Procedure Name | Input Output Parameters | Details |
 | --- | --- | --- | --- |
-| insertCustomerData |   |   |  AJ |
-| insertEmployeeData |   |   |  AJ |
-| insertFeedback |   |   |  AJ |
-| insertJobRole |   |   |  AJ |
-| insertMasterData |   |   |  AJ |
-| insertOLCriteria |   |   |  AJ |
-| insertOLCustomizationCriteria |   |   |  BS |
-| insertOrderData |   |   |  BS |
-| insertOrderLineData |   |   |  BS |
-| insertOrderStatusData |   |   |  BS |
-| insertProductData |   |   |  BS |
-| sp\_createInvoice |  orderId |   |  BS |
-| sp\_getMoneyMadeInDateRange |  Start date/ end date |   |  BS |
-| sp\_getAverageRatingForAProduct |  productId |   |  BS |
-| sp\_MostSoldProduct |   |   |  AJ |
-| sp\_getCurrentStatusForAnOrder |  orderId |   |  AJ |
+| insertCustomerData |   |   |
+| insertEmployeeData |   |   |
+| insertFeedback |   |   |
+| insertJobRole |   |   |
+| insertMasterData |   |   |
+| insertOLCriteria |   |   |
+| insertOLCustomizationCriteria |   |   |
+| insertOrderData |   |   |
+| insertOrderLineData |   |   |
+| insertOrderStatusData |   |   |
+| insertProductData |   |   |
+| sp\_createInvoice |  orderId |   |
+| sp\_getMoneyMadeInDateRange |  Start date/ end date |   |
+| sp\_getAverageRatingForAProduct |  productId |   |
+| sp\_MostSoldProduct |   |   |
+| sp\_getCurrentStatusForAnOrder |  orderId |   |
